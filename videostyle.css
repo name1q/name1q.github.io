@@ -43,13 +43,14 @@ body {
 	width: 50vw;
 	height: 33.3333333334vw;
 	margin-left:25% ;
-	border-radius: 2vw 2vw 3vw 3vw;
+	border-radius: 1vw;
 }
 
+
 .btn{
-	width: 20vw;
-	height: 5vw;
-	border-radius: 1vw;
+	width: 22vw;
+	height: 6vw;
+	border-radius: 0.5vw;
 	background: #646039;
 	transition: 0.2s;
 	cursor: pointer;
@@ -63,5 +64,32 @@ body {
 }
 
 .btnc{
-	margin-left: 30vw;
+	margin-left: 28vw;
+}
+
+
+
+.maink{
+	margin-left: 37.5vw;
+	width: 22vw;
+	height: 6vw;
+	border-radius: 0.5vw;
+	background: #646039;
+	transition: 0.2s;
+	cursor: pointer;
+	font-size: 2.2vw;
+}
+
+
+.maink:hover{
+	margin-left: 37.5vw;
+	width: 22vw;
+	height: 6vw;
+	border-radius:0;
+	background: #646039;
+	transition: 0.2s;
+	cursor: pointer;
+	font-size: 2.2vw;
+	border-radius: 0;
+	background: #5A5738;
 }
